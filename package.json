@@ -1,0 +1,7 @@
+{
+	"name": "mdm.barroit.sh",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"wrangler": "^4.30.0"
+	}
+}
