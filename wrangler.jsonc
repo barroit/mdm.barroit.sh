@@ -12,7 +12,6 @@
       "binding": "ASSETS",
       "directory": "./site",
       "html_handling": "drop-trailing-slash",
-      "not_found_handling": "404-page",
    },
    "observability": {
       "enabled": true,

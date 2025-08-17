@@ -5,7 +5,9 @@
 
 async function fetch_handler(request, env, ctx)
 {
-	return new Response(null, { status: 404 })
+	const index = new URL('/', request.url)
+
+	return Response.redirect(index, 301)
 }
 
 export default {
