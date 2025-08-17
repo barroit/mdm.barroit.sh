@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-.PHONY: live preview
+.PHONY: live preview deploy
 
 HOSTOPT := --ip
 
@@ -13,3 +13,6 @@ live:
 
 preview:
 	npx wrangler dev $(HOSTOPT)
+
+deploy:
+	npx wrangler deploy
