@@ -1,0 +1,28 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+/*
+ * Copyright 2025 Jiamu Sun <barroit@linux.com>
+ */
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	margin: 1rem;
+}
+
+h1 {
+	margin-block: 0;
+}
+
+table {
+	margin-top: 2rem;
+}
+
+tr > :not(:last-child) {
+	padding-right: 5rem;
+}
+
+tbody > tr > * {
+	padding-block: 1rem;
+}
