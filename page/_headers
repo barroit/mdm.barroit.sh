@@ -1,5 +1,10 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
 /MDM-*
   Cache-Control: public, max-age=31536000, immutable
   Content-Type: text/plain; charset=utf-8

@@ -9,7 +9,7 @@
    "main": "worker/entry.js",
    "compatibility_date": "2025-08-17",
    "assets": {
-      "directory": "./site",
+      "directory": "./page",
       "html_handling": "drop-trailing-slash",
    },
    "observability": {

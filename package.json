@@ -3,6 +3,6 @@
 	"license": "GPL-3.0-or-later",
 	"devDependencies": {
 		"five-server": "^0.4.4",
-		"wrangler": "^4.30.0"
+		"wrangler": "^4.31.0"
 	}
 }
